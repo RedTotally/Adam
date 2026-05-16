@@ -16,5 +16,15 @@ Very simple, `model.py` is the model code, and `training_data.pth` is the path c
 5. Check the outputs.
 
 ## What does the output mean?
+
+--Skip the yapping if you know what machine learning is--
+If you are also new to machine learning, the learning follows a very simple formula, and you have probably seen it in high school: `y = wx + b`
+`w = weight, b = bias`
+
+It is like the linear equation: `y = mx + b`
+--Skip the yapping if you know what machine learning is--
+
 - Epoch means the data point; you can take it as an attempt.
 - Loss value is how close the output is to the actual answer; the bigger it is, the more inaccurate it is.
+- The final answer... is the final answer the machine gives you, though not 100% accurate without sufficient attempts and data.
+- Then it will print an object that contains the data it will store, including the weightings and the attempts.
