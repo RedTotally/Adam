@@ -16,3 +16,5 @@ Very simple, `model.py` is the model code, and `training_data.pth` is the path c
 5. Check the outputs.
 
 ## What does the output mean?
+- Epoch means the data point; you can take it as an attempt.
+- Loss value is how close the output is to the actual answer; the bigger it is, the more inaccurate it is.
