@@ -35,4 +35,4 @@ So, on every attempt, the computer will adjust the weights and bias level, and t
 
 In this model, it follows the steps (In a loop): Forward Propagation (Feed data) > Loss Function (Find the gap) > Backpropagation (Find what was wrong) > Gradient (Improve in what direction) > Gradient Descent (Improve)
 
-Notably, activation functions is skipped here because it will only make things worse in this model, as it cuts off the answers. You notice there are negative values in the training data, active functions make them zero, `max(x, 0)`.
+Notably, activation functions is skipped here because it will only make things worse in this model, as it cuts off the answers. You notice there are negative values in the training data, activation functions make them zero, `max(x, 0)`.
