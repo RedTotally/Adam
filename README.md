@@ -29,6 +29,8 @@ If you are also new to machine learning, the learning follows a very simple form
 
 It is like the linear equation: `y = mx + b`
 
+Although in this case, things might be a bit different because it uses a 4th-degree polynomial here. But the idea is similar.
+
 So, on every attempt, the computer will adjust the weights and bias level, and try to make the y close to the value of the actual answer.
 
 In this model, it follows the steps (In a loop): Forward Propagation (Feed data) > Loss Function (Find the gap) > Backpropagation (Find what was wrong) > Gradient (Improve in what direction) > Gradient Descent (Improve)
