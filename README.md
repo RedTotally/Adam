@@ -6,7 +6,7 @@ I documented all the mistakes I made, funny stuff, and interesting things I foun
 Fun Fact: I only knew how TypeScript and JavaScript work, and I had no prior knowledge of Python.
 
 ## Structure
-Very simple, `model.py` is the model code, and `training_data.pth` is the path configuration file (I used it for checkpoint, basically storing values) that contains two important things: the weightings and the attempts. You may ignore the other files.
+Very simple, `model.py` is the model code, and `training_data.pth` is the path configuration file (I used it for checkpoint, basically storing values) that contains two important things: the weights and the attempts. You may ignore the other files.
 
 ## How to run it
 1. Clone it
@@ -20,7 +20,7 @@ Very simple, `model.py` is the model code, and `training_data.pth` is the path c
 - Epoch means a complete cycle; you can take it as an attempt.
 - Loss value is how close the output is to the actual answer; the bigger it is, the more inaccurate it is.
 - The final answer... is the final answer the machine gives you, though not 100% accurate without sufficient attempts and data.
-- Then it will print an object that contains the data it will store, including the weightings, bias value and the attempts.
+- Then it will print an object that contains the data it will store, including the weights, bias value and the attempts.
 
 // Skip the yapping if you know what machine learning is //
 
@@ -29,7 +29,8 @@ If you are also new to machine learning, the learning follows a very simple form
 
 It is like the linear equation: `y = mx + b`
 
-So, on every attempt, the computer will adjust the weightings and bias level, and try to make the y close to the value of the actual answer.
+So, on every attempt, the computer will adjust the weights and bias level, and try to make the y close to the value of the actual answer.
 
 In this model, it follows the steps (In a loop): Forward Propagation (Feed data) > Loss Function (Find the gap) > Backpropagation (Find what was wrong) > Gradient (Improve in what direction) > Gradient Descent (Improve)
-*Active function is skipped here because it will only make things worse in this model, as it cuts off the answers. You notice there are negative values in the training data, active functions make them zero, `max(x, 0)`.
+
+Notably, activation functions is skipped here because it will only make things worse in this model, as it cuts off the answers. You notice there are negative values in the training data, active functions make them zero, `max(x, 0)`.
