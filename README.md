@@ -22,7 +22,7 @@ Very simple, `model.py` is the model code, and `training_data.pth` is the path c
 - The final answer... is the final answer the machine gives you, though not 100% accurate without sufficient attempts and data.
 - Then it will print an object that contains the data it will store, including the weights, bias value and the attempts.
 
-// Skip the yapping if you know what machine learning is //
+## // Skip the yapping if you know what machine learning is //
 
 If you are also new to machine learning, the learning follows a very simple formula, and you have probably seen it in high school: `y = wx + b`
 `w = weight, b = bias`
