@@ -13,7 +13,7 @@ Very simple, `model.py` is the model code, and `training_data.pth` is the path c
 2. Open the folder in a code editor
 3. Open the terminal
 4. Run `python model.py`
-5. Check the outputs.
+5. Check the outputs
 
 ## What does the output mean?
 
