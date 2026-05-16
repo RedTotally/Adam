@@ -3,7 +3,7 @@
 # Mistakes I have made: 
 
 # 1. 
-# Syntax errors, Python is more rigid compared to TypeScript.
+# Syntax errors, Python is more rigid compared to JavaScript.
 
 # 2. 
 # Since y = -17x^4 + x^3 + 83x - 17 is not a linear regression, and the model can't determine whether the data is linear, the loss value remained very high.
