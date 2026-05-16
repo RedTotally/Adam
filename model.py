@@ -67,7 +67,7 @@ for epoch in range (100000):
     if epoch % 10000 == 0:
        print(f"At epoch {epoch}, the loss value is {loss}.")
 
-print(model(torch.tensor([[i_value_number, i_value_number**2, i_value_number**3, i_value_number**4]])).item())
+print(f"The final answer is {model(torch.tensor([[i_value_number, i_value_number**2, i_value_number**3, i_value_number**4]])).item()}")
 
 store = {
     'weights': model.state_dict(),
