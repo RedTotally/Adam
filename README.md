@@ -3,6 +3,8 @@ I was learning how to build a machine learning model. I learned how a linear one
 
 I documented all the mistakes I made, funny stuff, and interesting things I found throughout development in the Python code. Have fun reading :)
 
+Fun Fact: I only knew how TypeScript and JavaScript work, and I had no prior knowledge of Python.
+
 ## Structure
 Very simple, `model.py` is the model code, and `training_data.pth` is the path configuration file that contains two important things: the weightings and the attempts. You may ignore the other files.
 
