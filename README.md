@@ -6,7 +6,7 @@ I documented all the mistakes I made, funny stuff, and interesting things I foun
 Fun Fact: I only knew how TypeScript and JavaScript work, and I had no prior knowledge of Python.
 
 ## Structure
-Very simple, `model.py` is the model code, and `training_data.pth` is the path configuration file (I used it for checkpoint, basically storing values) that contains two important things: the weights and the attempts. You may ignore the other files.
+It is very simple, `model.py` is the model code, and `training_data.pth` is the path configuration file (I used it for checkpoint, basically storing values) that contains two important things: the weights and the attempts. You may ignore the other files.
 
 ## How to run it
 1. Clone it
