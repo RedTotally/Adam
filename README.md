@@ -17,7 +17,7 @@ Very simple, `model.py` is the model code, and `training_data.pth` is the path c
 
 ## What does the output mean?
 
-- Epoch means a complete cycle; you can take it as an attempt.
+- Epoch means how many times the computer has seen the data points; you can take it as how many attempts there are.
 - Loss value is how close the output is to the actual answer; the bigger it is, the more inaccurate it is.
 - The final answer... is the final answer the machine gives you, though not 100% accurate without sufficient attempts and data.
 - Then it will print an object that contains the data it will store, including the weights, bias value and the attempts.
