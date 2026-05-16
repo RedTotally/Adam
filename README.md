@@ -6,7 +6,7 @@ I documented all the mistakes I made, funny stuff, and interesting things I foun
 Fun Fact: I only knew how TypeScript and JavaScript work, and I had no prior knowledge of Python.
 
 ## Structure
-Very simple, `model.py` is the model code, and `training_data.pth` is the path configuration file that contains two important things: the weightings and the attempts. You may ignore the other files.
+Very simple, `model.py` is the model code, and `training_data.pth` is the path configuration file (I used it for checkpoint, basically storing values) that contains two important things: the weightings and the attempts. You may ignore the other files.
 
 ## How to run it
 1. Clone it
@@ -17,7 +17,7 @@ Very simple, `model.py` is the model code, and `training_data.pth` is the path c
 
 ## What does the output mean?
 
-- Epoch means the data point; you can take it as an attempt.
+- Epoch means a complete cycle; you can take it as an attempt.
 - Loss value is how close the output is to the actual answer; the bigger it is, the more inaccurate it is.
 - The final answer... is the final answer the machine gives you, though not 100% accurate without sufficient attempts and data.
 - Then it will print an object that contains the data it will store, including the weightings, bias value and the attempts.
