@@ -13,7 +13,7 @@
 # Now the machine will stop thinking about how close two data points are, but instead, it discovers every possible data point from a big table.
 
 # 3.
-# y = -17(3.0)^4 + (3.0)3 + 83(3.0) - 17 = 1,136, not -1,280. Calculation mistake.
+# y = -17(3.0)^4 + (3.0)^3 + 83(3.0) - 17 = -1,118, not -1,280. Calculation mistake.
 
 import torch
 import torch.nn as nn
