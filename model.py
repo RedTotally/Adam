@@ -1,4 +1,4 @@
-# Machine learning model for y = -17x^4 + x3 + 83x - 17
+# Machine learning model for y = -17x^4 + x^3 + 83x - 17
 
 # Mistakes I have made: 
 
@@ -64,7 +64,7 @@ for epoch in range (100000):
     loss.backward()
     optimizer.step()
 
-    if epoch % 10000 == 0:
+    if epoch % 1000 == 0:
        print(f"At epoch {epoch}, the loss value is {loss}.")
 
 print(f"The final answer is {model(torch.tensor([[i_value_number, i_value_number**2, i_value_number**3, i_value_number**4]])).item()}")
